@@ -27,8 +27,8 @@ public class EnemyRay : MonoBehaviour {
 			//			Debug.DrawRay (player.transform.position, new Vector3 (0, 0, 3), Color.red, 3.0f);
 		}
 	}
-//		void OnDrawGizmos () {
-//			Gizmos.color = new Color(1, 1, 1, 1f);
-//		Gizmos.DrawCube(transform.position + new Vector3(1.3f,4,-50), new Vector3(100, 10, 100));
-//		}
+		void OnDrawGizmos () {
+			Gizmos.color = new Color(1, 1, 1, 1f);
+		Gizmos.DrawCube(transform.position + new Vector3(1.3f,4,-50), new Vector3(100, 10, 100));
+		}
 }

@@ -30,7 +30,7 @@ public class PlayerMove : MonoBehaviour {
 	}
 
 	void FixedUpdate(){
-		if (Input.GetMouseButton (0) && transform.position.y == -0.3f) {
+		if (Input.GetMouseButton (0)) {
 			rb.velocity = Vector3.zero;
 			rb.angularVelocity = Vector3.zero;
 			ColorChange ();

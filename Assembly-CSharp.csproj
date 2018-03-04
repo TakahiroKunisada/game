@@ -57,6 +57,7 @@
      <Compile Include="Assets\Script\Item\Reversal.cs" />
      <Compile Include="Assets\Script\Other\CameraMove.cs" />
      <Compile Include="Assets\Script\Other\MoveScene.cs" />
+     <Compile Include="Assets\Script\Other\Transparency.cs" />
      <Compile Include="Assets\Script\Player\PlayerManager.cs" />
      <Compile Include="Assets\Script\Player\PlayerMove.cs" />
      <Compile Include="Assets\Script\Player\PlayerRay.cs" />
