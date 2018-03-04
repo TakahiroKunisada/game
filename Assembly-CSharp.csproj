@@ -66,6 +66,7 @@
      <Compile Include="Assets\Script\Player\PlayerMove.cs" />
      <Compile Include="Assets\Script\Player\PlayerRay.cs" />
      <Compile Include="Assets\Script\PlayerSearch.cs" />
+     <Compile Include="Assets\Script\Stage1\Enemy1.cs" />
      <Compile Include="Assets\Script\UI\Blinking.cs" />
      <Compile Include="Assets\Script\UI\Flash.cs" />
  <Reference Include="Facebook.Unity.Settings">
