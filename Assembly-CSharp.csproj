@@ -51,9 +51,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\aaa.cs" />
      <Compile Include="Assets\Script\Enemy\EnemyManager.cs" />
      <Compile Include="Assets\Script\Enemy\EnemyMove.cs" />
      <Compile Include="Assets\Script\Enemy\EnemyRay.cs" />
+     <Compile Include="Assets\Script\Enemy\FanViewer.cs" />
+     <Compile Include="Assets\Script\Enemy\Finder.cs" />
+     <Compile Include="Assets\Script\Enemy\SearchingBehavior.cs" />
      <Compile Include="Assets\Script\Item\Reversal.cs" />
      <Compile Include="Assets\Script\Other\CameraMove.cs" />
      <Compile Include="Assets\Script\Other\MoveScene.cs" />
