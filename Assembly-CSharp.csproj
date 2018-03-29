@@ -52,21 +52,26 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\aaa.cs" />
+     <Compile Include="Assets\Script\Button.cs" />
      <Compile Include="Assets\Script\Enemy\EnemyManager.cs" />
      <Compile Include="Assets\Script\Enemy\EnemyMove.cs" />
      <Compile Include="Assets\Script\Enemy\EnemyRay.cs" />
      <Compile Include="Assets\Script\Enemy\FanViewer.cs" />
      <Compile Include="Assets\Script\Enemy\Finder.cs" />
      <Compile Include="Assets\Script\Enemy\SearchingBehavior.cs" />
+     <Compile Include="Assets\Script\Goal.cs" />
      <Compile Include="Assets\Script\Item\Reversal.cs" />
      <Compile Include="Assets\Script\Other\CameraMove.cs" />
      <Compile Include="Assets\Script\Other\MoveScene.cs" />
      <Compile Include="Assets\Script\Other\Transparency.cs" />
+     <Compile Include="Assets\Script\Player\Clear.cs" />
      <Compile Include="Assets\Script\Player\PlayerManager.cs" />
      <Compile Include="Assets\Script\Player\PlayerMove.cs" />
      <Compile Include="Assets\Script\Player\PlayerRay.cs" />
      <Compile Include="Assets\Script\PlayerSearch.cs" />
      <Compile Include="Assets\Script\Stage1\Enemy1.cs" />
+     <Compile Include="Assets\Script\Stage1\Point.cs" />
+     <Compile Include="Assets\Script\Stage1\Star.cs" />
      <Compile Include="Assets\Script\UI\Blinking.cs" />
      <Compile Include="Assets\Script\UI\Flash.cs" />
  <Reference Include="Facebook.Unity.Settings">
