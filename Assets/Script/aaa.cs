@@ -1,27 +1,23 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 
-public class aaa : MonoBehaviour {
-
-	RaycastHit hit;
-
-	[SerializeField]
-	bool isEnable = false;
-
-	void OnDrawGizmos()
+[RequireComponent (typeof(MeshRenderer))]
+[RequireComponent (typeof(MeshFilter))]
+public class aaa : MonoBehaviour
+{
+	private void Start ()
 	{
-		if (isEnable == false)
-			return;
-
-		var scale = transform.lossyScale.x * 10f;
-
-		var isHit = Physics.BoxCast (transform.position, Vector3.one * scale, transform.forward, out hit, transform.rotation);
-		if (isHit) {
-			Gizmos.DrawRay (transform.position, transform.forward * hit.distance);
-			Gizmos.DrawWireCube (transform.position + transform.forward * hit.distance, Vector3.one * scale * 2);
-		} else {
-			Gizmos.DrawRay (transform.position, transform.forward * 100);
-		}
+		var mesh = new Mesh ();
+		mesh.vertices = new Vector3[] {
+			new Vector3 (0, 1f),
+			new Vector3 (1f, -1f),
+			new Vector3 (-1f, -1f),
+		};
+		mesh.triangles = new int[] {
+			0, 1, 2 
+		};
+		mesh.RecalculateNormals ();
+		var filter = GetComponent<MeshFilter> ();
+		filter.sharedMesh = mesh;
 	}
 }

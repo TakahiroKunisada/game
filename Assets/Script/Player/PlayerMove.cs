@@ -33,14 +33,14 @@ public class PlayerMove : MonoBehaviour {
 		if (Input.GetMouseButton (0)) {
 			rb.velocity = Vector3.zero;
 			rb.angularVelocity = Vector3.zero;
-			ColorChange ();
+//			ColorChange ();
 			PlayerManager.state = 2;
 		} else {
 //			Vector3  dir = Vector3.zero; 
 //			dir.x = Input.acceleration.x * x_speed; 
 //			dir.z = Input.acceleration.y * z_speed;
 //			dir.y = 0;
-//			rb.AddForce(dir *force);
+//			rb.AddForce(new Vector3(0,0,force));
 			PlayerManager.state = 1;
 			ColorReset ();
 			Vector3 position = new Vector3( gyroscope.gravity.x * z_speed, 0, gyroscope.gravity.y * x_speed) * speed;

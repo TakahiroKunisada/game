@@ -53,6 +53,8 @@
   <ItemGroup>
      <Compile Include="Assets\Script\aaa.cs" />
      <Compile Include="Assets\Script\Button.cs" />
+     <Compile Include="Assets\Script\Enemy\Enemy1.cs" />
+     <Compile Include="Assets\Script\Enemy\Enemy2.cs" />
      <Compile Include="Assets\Script\Enemy\EnemyManager.cs" />
      <Compile Include="Assets\Script\Enemy\EnemyMove.cs" />
      <Compile Include="Assets\Script\Enemy\EnemyRay.cs" />
@@ -69,11 +71,11 @@
      <Compile Include="Assets\Script\Player\PlayerMove.cs" />
      <Compile Include="Assets\Script\Player\PlayerRay.cs" />
      <Compile Include="Assets\Script\PlayerSearch.cs" />
-     <Compile Include="Assets\Script\Stage1\Enemy1.cs" />
      <Compile Include="Assets\Script\Stage1\Point.cs" />
      <Compile Include="Assets\Script\Stage1\Star.cs" />
      <Compile Include="Assets\Script\UI\Blinking.cs" />
      <Compile Include="Assets\Script\UI\Flash.cs" />
+     <Compile Include="Assets\Script\UI\GameOver.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>/Users/hw16a068/Desktop/darumasanga/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
