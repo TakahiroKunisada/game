@@ -25,7 +25,7 @@ public class Reversal : MonoBehaviour {
 
 	}
 
-	void OnCollisionEnter(Collision hit){
+	void OnTriggerEnter(Collider hit){
 		if(hit.gameObject.CompareTag("Item")){
 			PlayerMove.speed = -0.15f;
 			time = 0;

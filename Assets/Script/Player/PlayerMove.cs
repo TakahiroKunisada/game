@@ -54,7 +54,7 @@ public class PlayerMove : MonoBehaviour {
 
 			}
 		//移動制限
-		transform.position = new Vector3( Mathf.Clamp (transform.position.x, -39f, 39f),
+		transform.position = new Vector3( Mathf.Clamp (transform.position.x, -37f, 39f),
 										  transform.position.y,
 										  Mathf.Clamp (transform.position.z, -4f, 135f));
 	}

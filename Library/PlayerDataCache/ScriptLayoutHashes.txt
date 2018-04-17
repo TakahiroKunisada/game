@@ -4,12 +4,13 @@ Assets/Scene/Stage.unity
 Assets/Scene/Start.unity
 Assets/Scene/Result.unity
 Assets/Scene/Stage2.unity
-Assets/Scene/Stage3.unity
+Assets/Scene/Stage5.unity
 Assets/Scene/Select.unity
+Assets/Scene/Stage6.unity
+Assets/Scene/Stage3.unity
 Assets/Scene/Stage4.unity
-Assets/Scene/Result2.unity
-Assets/Scene/Result3.unity
-Assets/Scene/Result4.unity
+Assets/Scene/Stage7.unity
+Assets/Scene/Stage8.unity
 SceneListEnd?
 71e7347880148fd25d472f19e7d1267b Assembly-CSharp.dll:.CameraMove
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -129,6 +130,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 913d4804f7266019bce25eebec6717c5 Assembly-CSharp.dll:.EnemyRay
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Button
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Delete
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Clear
 fb8eee31f71274eff9df5dbf0725c4e5 Assembly-CSharp.dll:.SearchingBehavior
 fecdf0fe560bcf07def152e1ee8d4a25 Assembly-CSharp.dll:.PlayerRay
@@ -157,6 +159,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 96d0fbde9fd209878a0a291f82c9bcdd UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Stage
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 1a1d936c7ae360f297f86c89b0362f7f Assembly-CSharp.dll:.Goal
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.EnemyManager
@@ -169,8 +172,12 @@ bb46dcbf1116995088a29b8532e4028b Assembly-CSharp.dll:.EnemyMove
 7f959325beddd7cad34a896a53326a22 Assembly-CSharp.dll:.Blinking
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 49e077e7b5681001c1b832d2ddfd8c38 Assembly-CSharp.dll:.Star
+fae0736a02865ba74d2a8182bcbad4a4 Assembly-CSharp.dll:.Swich
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.aaa
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Main
 1a1d936c7ae360f297f86c89b0362f7f Assembly-CSharp.dll:.MoveScene
 ba63ee78b08c1a0dfd28c76e26d95005 Assembly-CSharp.dll:.Reversal
+e5b65d63b3844ab982f26a76366253ff Assembly-CSharp.dll:.Repetition
+b03a6f4aa0b959b775719f3d1dc25cb8 Assembly-CSharp.dll:.Change
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayerManager
 7f959325beddd7cad34a896a53326a22 Assembly-CSharp.dll:.Flash

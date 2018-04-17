@@ -3,6 +3,8 @@ using System.Collections;
 
 public class PlayerManager : MonoBehaviour {
 
+//	public enum GameState;    //名前をつける
+
 	public static int state = 0;
 	/*	0:ゲーム前
 		1:ゲーム中(walk)

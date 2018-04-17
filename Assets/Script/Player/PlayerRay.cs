@@ -27,7 +27,7 @@ public class PlayerRay : MonoBehaviour {
 			}
 			 else {
 				gameObject.layer = LayerMask.NameToLayer ("Player");
-				Debug.Log ("b");
+//				Debug.Log ("b");
 			}
 				
 //			Debug.DrawRay (player.transform.position, new Vector3 (0, 0, 3), Color.red, 3.0f);
