@@ -19,11 +19,11 @@ public class PlayerRay : MonoBehaviour {
 	void Update () {
 		if (player != null) {
 			
-			if (Physics.BoxCast (player.transform.position + new Vector3 (0, 0, 3), new Vector3 (1.5f, 2, 1), transform.forward, out hit, transform.rotation,mask)) {
-				if (wall.gameObject.layer == LayerMask.NameToLayer ("Wall")) {
-					gameObject.layer = LayerMask.NameToLayer ("Ignore Raycast");
-					Debug.Log ("a");
-				}
+//			if (Physics.BoxCast (player.transform.position + new Vector3 (0, 0, 3), new Vector3 (1.5f, 2, 1), transform.forward, out hit, transform.rotation,mask)) {
+//				if (wall.gameObject.layer == LayerMask.NameToLayer ("Wall")) {
+//					gameObject.layer = LayerMask.NameToLayer ("Ignore Raycast");
+//					Debug.Log ("a");
+//				}
 			}
 			 else {
 				gameObject.layer = LayerMask.NameToLayer ("Player");
@@ -31,7 +31,7 @@ public class PlayerRay : MonoBehaviour {
 			}
 				
 //			Debug.DrawRay (player.transform.position, new Vector3 (0, 0, 3), Color.red, 3.0f);
-		}
+//		}
 	}
 	void OnDrawGizmos () {
 		Gizmos.color = new Color(1, 0, 0, 0.5F);

@@ -8,7 +8,9 @@ public class Change : MonoBehaviour {
 	GameObject Stage1_4;
 	[SerializeField]
 	GameObject Stage5_8;
-	int count = 0;
+	[SerializeField]
+	GameObject Stage9_12;
+	 int s_count = 0;
 	
 	// Use this for initialization
 	void Start () {
@@ -21,14 +23,21 @@ public class Change : MonoBehaviour {
 	}
 
 	public void stage_change(){
-		count++;
-		if(count % 2 == 1){
+		s_count++;
+		if(s_count % 3 == 1){
 		Stage1_4.SetActive (false);
 		Stage5_8.SetActive (true);
+		Stage9_12.SetActive (false);
 		}
-		if(count % 2 == 0){
+		if(s_count % 3 == 2){
+			Stage1_4.SetActive (false);
+			Stage5_8.SetActive (false);
+			Stage9_12.SetActive (true);
+		}
+		if(s_count % 3 == 0){
 			Stage1_4.SetActive (true);
 			Stage5_8.SetActive (false);
+			Stage9_12.SetActive (false);
 		}
 	}
 

@@ -6,7 +6,7 @@ public class Swich : MonoBehaviour {
 
 	[SerializeField]
 	GameObject wall;
-	static bool flagA;
+	bool flagA;
 	// Use this for initialization
 	void Start () {
 		flagA = false;

@@ -17,17 +17,17 @@ public class EnemyRay : MonoBehaviour {
 			RaycastHit hit;
 			var scale = transform.lossyScale.x * 10f;
 
-			var isHit = Physics.BoxCast (transform.position, Vector3.one * scale, transform.forward, out hit, transform.rotation);
+//			var isHit = Physics.BoxCast (transform.position, Vector3.one * scale, transform.forward, out hit, transform.rotation);
 //			if (Physics.BoxCast (transform.position + new Vector3 (1.3f, 4, -50), new Vector3 (100, 10, 1), transform.forward, out hit, transform.rotation,Mathf.Infinity)) {
 			if (isHit) {
 				Debug.Log ("aaa");
-				if (hit.collider.gameObject == player) {
-					if (EnemyManager.state == 2 && PlayerManager.state == 1) {
-						Debug.Log ("hit");
-					}
-				} else {
-					Debug.Log ("nothit");
-				}
+//				if (hit.collider.gameObject == player) {
+//					if (EnemyManager.state == 2 && PlayerManager.state == 1) {
+//						Debug.Log ("hit");
+//					}
+//				} else {
+//					Debug.Log ("nothit");
+//				}
 			}
 //			}
 			//			Debug.DrawRay (player.transform.position, new Vector3 (0, 0, 3), Color.red, 3.0f);

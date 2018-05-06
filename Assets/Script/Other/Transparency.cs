@@ -16,13 +16,13 @@ public class Transparency : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		RaycastHit hit;
-		if (Physics.BoxCast (transform.position + new Vector3 (0, 0, -1), new Vector3 (10, 2.5f, 1), transform.forward, out hit, transform.rotation,Mathf.Infinity)) {
-			if (hit.collider.gameObject == player) {
-				ColorChange ();
-			} else {
-				ColorReset ();
-			}
-		}
+//		if (Physics.BoxCast (transform.position + new Vector3 (0, 0, -1), new Vector3 (10, 2.5f, 1), transform.forward, out hit, transform.rotation,Mathf.Infinity)) {
+//			if (hit.collider.gameObject == player) {
+//				ColorChange ();
+//			} else {
+//				ColorReset ();
+//			}
+//		}
 	}
 
 	public void ColorChange(){

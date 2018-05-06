@@ -14,6 +14,6 @@ public class Main : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		stage = MoveScene.stage;
-		Debug.Log (stage);
+//		Debug.Log (stage);
 	}
 }

@@ -8,10 +8,14 @@ public class Reversal : MonoBehaviour {
 	private float time;
 	[SerializeField]
 	private float r_time;
+	float speed;
+	GameObject player;
+	PlayerMove pm;
 
 	// Use this for initialization
 	void Start () {
-		
+		player = GameObject.Find ("Player");
+		pm = player.GetComponent<PlayerMove>();
 	}
 	
 	// Update is called once per frame
@@ -19,7 +23,7 @@ public class Reversal : MonoBehaviour {
 		
 		time += Time.deltaTime;
 		if (time > r_time) {
-			PlayerMove.speed = 0.15f;
+			pm.speed = 0.15f;
 		} 
 
 
@@ -27,7 +31,7 @@ public class Reversal : MonoBehaviour {
 
 	void OnTriggerEnter(Collider hit){
 		if(hit.gameObject.CompareTag("Item")){
-			PlayerMove.speed = -0.15f;
+			pm.speed = -0.15f;
 			time = 0;
 			Destroy (hit.gameObject);
 		}

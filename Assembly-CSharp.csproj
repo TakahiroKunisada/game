@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\Script\aaa.cs" />
      <Compile Include="Assets\Script\Button.cs" />
+     <Compile Include="Assets\Script\Enemy\Compliance.cs" />
      <Compile Include="Assets\Script\Enemy\Enemy1.cs" />
      <Compile Include="Assets\Script\Enemy\Enemy2.cs" />
      <Compile Include="Assets\Script\Enemy\EnemyManager.cs" />
@@ -68,16 +69,20 @@
      <Compile Include="Assets\Script\Other\MoveScene.cs" />
      <Compile Include="Assets\Script\Other\Transparency.cs" />
      <Compile Include="Assets\Script\Player\Clear.cs" />
+     <Compile Include="Assets\Script\Player\Physics.cs" />
      <Compile Include="Assets\Script\Player\PlayerManager.cs" />
      <Compile Include="Assets\Script\Player\PlayerMove.cs" />
      <Compile Include="Assets\Script\Player\PlayerRay.cs" />
      <Compile Include="Assets\Script\PlayerSearch.cs" />
+     <Compile Include="Assets\Script\Release.cs" />
      <Compile Include="Assets\Script\Stage.cs" />
      <Compile Include="Assets\Script\Stage\Back.cs" />
      <Compile Include="Assets\Script\Stage\Go.cs" />
      <Compile Include="Assets\Script\Stage\Goal.cs" />
      <Compile Include="Assets\Script\Stage\Point.cs" />
      <Compile Include="Assets\Script\Stage\Star.cs" />
+     <Compile Include="Assets\Script\Stage\UniversalGravitation.cs" />
+     <Compile Include="Assets\Script\Stage\Updown.cs" />
      <Compile Include="Assets\Script\UI\Blinking.cs" />
      <Compile Include="Assets\Script\UI\Change.cs" />
      <Compile Include="Assets\Script\UI\Delete.cs" />

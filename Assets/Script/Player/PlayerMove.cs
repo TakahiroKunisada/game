@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class PlayerMove : MonoBehaviour {
 	public Rigidbody rb;
 	public static float force = 9.81f;
-	public static float speed = 0.15f;
+	public float speed = 0.15f;
 	[SerializeField]
 	private float x_speed;
 	[SerializeField]

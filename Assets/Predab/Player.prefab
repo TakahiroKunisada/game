@@ -27,6 +27,7 @@ GameObject:
   - component: {fileID: 114274646727283674}
   - component: {fileID: 114705475944113506}
   - component: {fileID: 114859364858492668}
+  - component: {fileID: 114571171975875652}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -115,11 +116,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
+  speed: 0.15
   x_speed: 50
-  z_speed: 12
+  z_speed: 15
   change_color: {r: 0, g: 0.12941177, b: 1, a: 0.27450982}
   origin_color: {r: 0, g: 0.12941177, b: 1, a: 1}
   gravity: {fileID: 4661549654513982}
+--- !u!114 &114571171975875652
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1710758201577748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43114ecf88ea9474e91d29aa945378cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localGravity: {x: 0, y: -800, z: 0}
 --- !u!114 &114705475944113506
 MonoBehaviour:
   m_ObjectHideFlags: 1
