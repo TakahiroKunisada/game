@@ -30,12 +30,12 @@ public class PlayerMove : MonoBehaviour {
 	}
 
 	void FixedUpdate(){
-		if (Input.GetMouseButton (0)) {
-			rb.velocity = Vector3.zero;
-			rb.angularVelocity = Vector3.zero;
+//		if (Input.GetMouseButton (0)) {
+//			rb.velocity = Vector3.zero;
+//			rb.angularVelocity = Vector3.zero;
 //			ColorChange ();
-			PlayerManager.state = 2;
-		} else {
+//			PlayerManager.state = 2;
+//		} else {
 //			Vector3  dir = Vector3.zero; 
 //			dir.x = Input.acceleration.x * x_speed; 
 //			dir.z = Input.acceleration.y * z_speed;
@@ -52,7 +52,7 @@ public class PlayerMove : MonoBehaviour {
 //			//手前・奥に傾けたときの重力ベクトルの値の差を手前・奥の移動とする
 //			float v = Mathf.Clamp(-1 * (Input.gyro.gravity.x - 0.6) * gyroScale, -1.0, 1.0);
 
-			}
+//			}
 		//移動制限
 		transform.position = new Vector3( Mathf.Clamp (transform.position.x, -37f, 39f),
 										  transform.position.y,

@@ -1,16 +1,20 @@
 iOS
 SceneListBegin?
-Assets/Scene/Stage.unity
 Assets/Scene/Start.unity
-Assets/Scene/Result.unity
-Assets/Scene/Stage2.unity
-Assets/Scene/Stage5.unity
 Assets/Scene/Select.unity
-Assets/Scene/Stage6.unity
+Assets/Scene/Result.unity
+Assets/Scene/Stage.unity
+Assets/Scene/Stage2.unity
 Assets/Scene/Stage3.unity
-Assets/Scene/Stage4.unity
+Assets/Scene/Stage6.unity
 Assets/Scene/Stage7.unity
+Assets/Scene/Stage4.unity
+Assets/Scene/Stage5.unity
 Assets/Scene/Stage8.unity
+Assets/Scene/Stage9.unity
+Assets/Scene/Stage10.unity
+Assets/Scene/Stage11.unity
+Assets/Scene/Stage12.unity
 SceneListEnd?
 71e7347880148fd25d472f19e7d1267b Assembly-CSharp.dll:.CameraMove
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -58,7 +62,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
-fb25d995547160111a3f2f42a66e61b9 Assembly-CSharp.dll:.PlayerMove
+68611b1003bf835c1462391e44539ae2 Assembly-CSharp.dll:.PlayerMove
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -123,6 +127,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
+97298c3db24a0a00862c9ea8591def74 Assembly-CSharp.dll:.Back
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -130,6 +135,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 913d4804f7266019bce25eebec6717c5 Assembly-CSharp.dll:.EnemyRay
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Button
+9c4d5c8ec8a190483dc7d452819ad5bd Assembly-CSharp.dll:.Compliance
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Delete
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Clear
 fb8eee31f71274eff9df5dbf0725c4e5 Assembly-CSharp.dll:.SearchingBehavior
@@ -139,6 +145,7 @@ fecdf0fe560bcf07def152e1ee8d4a25 Assembly-CSharp.dll:.PlayerRay
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Point
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayerSearch
 ca3c7e5d812370319a8f94a1a26fa1ba Assembly-CSharp.dll:Egliss.FanViewer
+d40031708ffbceb50873439be2706832 Assembly-CSharp.dll:.UniversalGravitation
 32e8fe00b63ed946490b898f6024a2f2 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
 91ad3bf7aa1eab96c155a889ee836f21 Assembly-CSharp.dll:.Finder
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -176,8 +183,11 @@ fae0736a02865ba74d2a8182bcbad4a4 Assembly-CSharp.dll:.Swich
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.aaa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Main
 1a1d936c7ae360f297f86c89b0362f7f Assembly-CSharp.dll:.MoveScene
+f0152c2eb8f1f286b1ace802e570395c Assembly-CSharp.dll:.Updown
 ba63ee78b08c1a0dfd28c76e26d95005 Assembly-CSharp.dll:.Reversal
-e5b65d63b3844ab982f26a76366253ff Assembly-CSharp.dll:.Repetition
-b03a6f4aa0b959b775719f3d1dc25cb8 Assembly-CSharp.dll:.Change
+97298c3db24a0a00862c9ea8591def74 Assembly-CSharp.dll:.Go
+ab8ddbec43d479d472ad703523019bbf Assembly-CSharp.dll:.Change
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayerManager
+e52b76b1afe6ed489cd94e6e5369c7f8 Assembly-CSharp.dll:.Release
 7f959325beddd7cad34a896a53326a22 Assembly-CSharp.dll:.Flash
+16ec7ad2d6869a485ddd436da7db8a5f Assembly-CSharp.dll:.Physics
